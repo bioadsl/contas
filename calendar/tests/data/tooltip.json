@@ -1,0 +1,31 @@
+{
+  "children" : [
+    {
+      "tag"   : "h1",
+      "style" : {
+        "color" : "#fff"
+      },
+      "text" : "The event name"
+    },
+    {
+      "style" : {
+        "display"             : "grid",
+        "gridTemplateColumns" : "4em 1fr"
+      },
+      "children" : [
+        { "text" : "From" },
+        { "text" : "06 March 2020 at 18:00" }
+      ]
+    },
+    {
+      "style" : {
+        "display"             : "grid",
+        "gridTemplateColumns" : "4em 1fr"
+      },
+      "children" : [
+        { "text" : "To" },
+        { "text" : "06 March 2020 at 19:00" }
+      ]
+    }
+  ]
+}

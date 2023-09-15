@@ -1,0 +1,37 @@
+.b-myagendacolumn-cell {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5em;
+}
+.b-myagendacolumn-cell .my-agenda-room-list, .b-myagendacolumn-cell .my-agenda-event-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.b-myagendacolumn-cell .my-agenda-event-list {
+  padding-inline-start: 3em;
+}
+.b-myagendacolumn-cell .my-agenda-event-list .b-cal-event {
+  line-height: unset;
+  align-items: baseline;
+}
+.b-myagendacolumn-cell .my-agenda-event-list .b-cal-event-body {
+  display: flex;
+  gap: 0.3em;
+}
+.b-myagendacolumn-cell .my-agenda-room {
+  display: flex;
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+  align-items: start;
+}
+.b-myagendacolumn-cell .my-agenda-room-name {
+  background-color: #bbe4f3;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: #606060;
+}
+
+/*# sourceMappingURL=app.css.map */

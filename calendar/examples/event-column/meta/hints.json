@@ -1,0 +1,12 @@
+{
+  ".b-agendaview-dayselector": {
+    "align": "t-b",
+    "title": "View configured with <code>daySelector : true</code>",
+    "content": "A <code>CalendarRow</code> instance is docked at the top to select the viewed date"
+  },
+  "[data-ref=\"datePicker\"]": {
+    "align": "t-b",
+    "title": null,
+    "content": "<code>datePicker.events</code> config set to <code>'count'</code>"
+  }
+}

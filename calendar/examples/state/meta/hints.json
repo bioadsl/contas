@@ -1,0 +1,10 @@
+{
+  "#title": {
+    "title": "Stateful Demo",
+    "content": "This example shows how to save the state of the calendar across page loads.<p>The Calendars's active <code>date</code> is stored in the saved state"
+  },
+  ".b-modeselector": {
+    "title": "Mode Selector",
+    "content": "The mode is selected responsively by default and the user's changes are saved across page loads."
+  }
+}

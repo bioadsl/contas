@@ -1,0 +1,22 @@
+{
+  "[data-date='2020-10-11'] .b-cal-timerange-header.b-icon .b-cal-timerange-header-text": {
+    "title": "Header icons",
+    "content": "Time ranges headers can display icons as well as text.",
+    "align": "l50-r90"
+  },
+  "[data-date='2020-10-12'] .b-cal-timerange-align-start .b-cal-timerange-header": {
+    "title": "Time ranges are displayed next to events",
+    "content": "Time ranges have headers, bodies, and footers that can be configured and styled.",
+    "align": "b90-t"
+  },
+  ".b-cal-timerange-line": {
+    "title": "Time indicators",
+    "content": "Time ranges can be just a line (with a tooltip).",
+    "align": "l-r"
+  },
+  "[data-date='2020-10-16'] .b-cal-timerange-align-end": {
+    "title": "Time ranges can be aligned on either edge",
+    "content": "By default, time ranges are rotated counter-clockwise and align their headers on the left. This can be controlled by fields of the time range.",
+    "align": "t40-b90"
+  }
+}

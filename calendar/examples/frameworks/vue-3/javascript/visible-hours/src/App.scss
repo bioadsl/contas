@@ -1,0 +1,14 @@
+/**
+ * Application global styles
+ */
+@import '~@bryntum/calendar/calendar.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.hourField {
+    width             : auto;
+    margin-inline-end : 2em;
+
+    .b-field-inner {
+        width : 5em;
+    }
+}

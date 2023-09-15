@@ -1,0 +1,69 @@
+[data-ref=prevButton] {
+  margin-inline-start: auto;
+}
+
+[data-ref=nextButton] {
+  margin-inline-end: auto;
+}
+
+[data-ref=viewDescription] {
+  margin: 0 !important;
+}
+
+.b-cal-event {
+  align-items: top;
+  padding-top: 0.4em;
+}
+.b-cal-event i {
+  font-size: 20px;
+  align-self: start;
+  margin-top: 0.3em;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .b-cal-event i.b-cal-event-icon {
+    display: none !important;
+  }
+  .b-agendaview .b-cal-event i.b-cal-event-icon {
+    margin-top: 0;
+    display: initial !important;
+  }
+}
+.b-cal-event-desc {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.b-cal-recurrence-icon {
+  display: none !important;
+}
+
+.b-agendaview .b-cal-event-wrap {
+  min-width: 15em;
+}
+
+.b-cal-cell-no-content {
+  min-height: 3.2em;
+}
+
+.b-other-show-list {
+  gap: 0.3em;
+  display: flex;
+  flex-direction: column;
+}
+.b-other-show-list li {
+  border-radius: 4px !important;
+  color: #fff;
+}
+
+.b-calendar-day-header {
+  justify-content: center !important;
+  color: inherit !important;
+}
+
+.b-week-num {
+  display: none !important;
+}
+
+/*# sourceMappingURL=app.css.map */

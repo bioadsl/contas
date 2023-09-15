@@ -1,0 +1,11 @@
+<!-- BryntumDemoHeader component is used for Bryntum example styling only and can be removed -->
+<bryntum-demo-header></bryntum-demo-header>
+
+<bryntum-calendar
+    [events]              = "events"
+    [resources]           = "resources"
+    [eventTooltipFeature] = "calendarConfig.features!.eventTooltip!"
+    [date]                = "calendarConfig.date!"
+    [modes]               = "calendarConfig.modes!"
+    (onCatchAll)          = "onCalendarEvents($event)"
+></bryntum-calendar>

@@ -1,0 +1,7 @@
+{
+  "[data-ref=\"weekShowButton\"]": {
+    "align": "t-b",
+    "title": "Required data loads on demand",
+    "content": "Only the events which a particular view requires are loaded at any one time<p>Events are loaded through a mock Ajax helper class"
+  }
+}

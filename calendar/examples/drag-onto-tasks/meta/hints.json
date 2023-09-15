@@ -1,0 +1,7 @@
+{
+  ".b-grid-row[data-index=\"2\"]": {
+    "title": "Drag equipments",
+    "content": "Drag and drop these objects onto task bars into the calendar to assign them. <br><br><b>Note:</b> This demo uses the <a href='https://bryntum.com/products/grid'>Bryntum Grid</a> component which is licensed separately.",
+    "align": "r-l"
+  }
+}

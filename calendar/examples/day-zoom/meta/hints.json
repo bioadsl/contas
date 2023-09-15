@@ -1,0 +1,13 @@
+{
+  "[data-ref=\"hourHeightSlider\"] input": {
+    "align": "l-r",
+    "content": "The slider allows you to zoom into the timeline using the <code>zoomTo</code> API<p>Alternatively, CTRL+MouseWheel over the content area zooms in or out"
+  },
+  "[data-ref=\"fitHeightCheckbox\"] input": {
+    "align": {
+      "align": "t-b",
+      "constrainPadding": 20
+    },
+    "content": "Use this to change back to the hours fitting within the available height"
+  }
+}

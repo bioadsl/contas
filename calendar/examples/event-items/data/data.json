@@ -1,0 +1,238 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Jenny A Anderson",
+        "eventColor" : "#3E59A3"
+      },
+      {
+        "id"         : 2,
+        "name"       : "Mary B Davis",
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 3,
+        "name"       : "Karen C Ewans",
+        "eventColor" : "#972D8D"
+      },
+      {
+        "id"         : 4,
+        "name"       : "Don D Scott",
+        "eventColor" : "#C16413"
+      },
+      {
+        "id"         : 5,
+        "name"       : "Adam E Miller",
+        "eventColor" : "#CFA664"
+      },
+      {
+        "id"         : 6,
+        "name"       : "John F Jackson",
+        "eventColor" : "#34A0D7"
+      },
+      {
+        "id"         : 7,
+        "name"       : "Karen G Scott",
+        "eventColor" : "#75F44C"
+      },
+      {
+        "id"         : 8,
+        "name"       : "Linda H Brown",
+        "eventColor" : "#409120"
+      },
+      {
+        "id"         : 9,
+        "name"       : "Don I Taylor",
+        "eventColor" : "#21CAD0"
+      },
+      {
+        "id"         : 10,
+        "name"       : "John J Adams",
+        "eventColor" : "#01F189"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "startDate"  : "2023-10-08T14:00:00",
+        "endDate"    : "2023-10-18T12:00:00",
+        "name"       : "Hackathon 2020",
+        "allDay"     : true,
+        "resourceId" : 4,
+        "guests"     : [1, 3, 5, 7, 9, 11]
+      },
+      {
+        "id"         : 2,
+        "startDate"  : "2023-10-08T14:00:00",
+        "endDate"    : "2023-10-08T18:00:00",
+        "name"       : "Hotel check-in",
+        "resourceId" : 5,
+        "guests"     : [3, 4]
+      },
+      {
+        "id"         : 3,
+        "startDate"  : "2023-10-08T18:00:00",
+        "endDate"    : "2023-10-08T20:00:00",
+        "name"       : "Relax and official arrival beer",
+        "allDay"     : true,
+        "resourceId" : 7
+      },
+      {
+        "id"         : 4,
+        "startDate"  : "2023-10-08T20:00:00",
+        "endDate"    : "2023-10-08T21:45:00",
+        "name"       : "Dinner",
+        "resourceId" : 1,
+        "guests"     : [3, 4]
+      },
+      {
+        "id"         : 5,
+        "startDate"  : "2023-10-09T09:00:00",
+        "endDate"    : "2023-10-09T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 6,
+        "startDate"  : "2023-10-11T10:00:00",
+        "endDate"    : "2023-10-11T14:00:00",
+        "name"       : "Team Hackathon",
+        "resourceId" : 3,
+        "guests"     : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      },
+      {
+        "id"         : 7,
+        "startDate"  : "2023-10-09T12:00:00",
+        "endDate"    : "2023-10-09T14:00:00",
+        "name"       : "Scheduler review",
+        "resourceId" : 5,
+        "guests"     : [8, 9]
+      },
+      {
+        "id"         : 8,
+        "startDate"  : "2023-10-09T14:00:00",
+        "endDate"    : "2023-10-09T15:45:00",
+        "name"       : "Lunch",
+        "resourceId" : 2,
+        "guests"     : [1, 2, 3, 6, 11]
+      },
+      {
+        "id"         : 9,
+        "startDate"  : "2023-10-15T15:00:00",
+        "endDate"    : "2023-10-15T19:00:00",
+        "name"       : "Active client project review",
+        "resourceId" : 4,
+        "guests"     : [1, 2, 3, 4, 8, 9]
+      },
+      {
+        "id"         : 10,
+        "startDate"  : "2023-10-09T19:00:00",
+        "endDate"    : "2023-10-09T21:30:00",
+        "name"       : "Dinner",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 11,
+        "startDate"  : "2023-10-10T09:00:00",
+        "endDate"    : "2023-10-10T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : 9
+      },
+      {
+        "id"         : 12,
+        "startDate"  : "2023-10-10T10:00:00",
+        "endDate"    : "2023-10-10T12:00:00",
+        "name"       : "Roadmapping for 2020",
+        "resourceId" : 5,
+        "guests"     : [2, 4, 6]
+      },
+      {
+        "id"         : 13,
+        "startDate"  : "2023-10-10T12:00:00",
+        "endDate"    : "2023-10-10T14:00:00",
+        "name"       : "Review support tickets",
+        "resourceId" : 8
+      },
+      {
+        "id"         : 14,
+        "startDate"  : "2023-10-10T14:00:00",
+        "endDate"    : "2023-10-10T15:00:00",
+        "name"       : "Lunch",
+        "resourceId" : 7
+      },
+      {
+        "id"         : 15,
+        "startDate"  : "2023-10-10T15:00:00",
+        "endDate"    : "2023-10-10T18:00:00",
+        "name"       : "Coding contest",
+        "resourceId" : 7,
+        "guests"     : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+      },
+      {
+        "id"         : 16,
+        "startDate"  : "2023-10-10T18:00:00",
+        "endDate"    : "2023-10-10T19:00:00",
+        "name"       : "Happy hour",
+        "resourceId" : 7
+      },
+      {
+        "id"         : 17,
+        "startDate"  : "2023-10-10T19:00:00",
+        "endDate"    : "2023-10-10T21:00:00",
+        "name"       : "Dinner",
+        "resourceId" : 7
+      },
+      {
+        "id"             : 18,
+        "startDate"      : "1980-05-25",
+        "endDate"        : "1980-05-25",
+        "allDay"         : true,
+        "name"           : "Dave's birthday",
+        "recurrenceRule" : "FREQ=YEARLY",
+        "resourceId"     : 1
+      }
+    ]
+  },
+  "guests" : {
+    "rows" : [
+      {
+        "id"   : 1,
+        "name" : "Lucy Soto"
+      }, {
+        "id"   : 2,
+        "name" : "Harry Bosch"
+      }, {
+        "id"   : 3,
+        "name" : "Mick Haller"
+      }, {
+        "id"   : 4,
+        "name" : "Harvey Pounds"
+      }, {
+        "id"   : 5,
+        "name" : "Irvin Irving"
+      }, {
+        "id"   : 6,
+        "name" : "Jerry Edgar"
+      }, {
+        "id"   : 7,
+        "name" : "Eleanor Wish"
+      }, {
+        "id"   : 8,
+        "name" : "Rachel Walling"
+      }, {
+        "id"   : 9,
+        "name" : "Jack McEvoy"
+      }, {
+        "id"   : 10,
+        "name" : "Kiz Rider"
+      }, {
+        "id"   : 11,
+        "name" : "Julia Brasher"
+      }
+    ]
+  }
+}

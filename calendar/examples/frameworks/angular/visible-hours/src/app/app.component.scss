@@ -1,0 +1,15 @@
+@import '~@bryntum/calendar/calendar.material.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+bryntum-calendar {
+    flex : 1;
+}
+
+.hourField {
+    width             : auto;
+    margin-inline-end : 2em;
+
+    .b-field-inner {
+        width : 5em;
+    }
+}

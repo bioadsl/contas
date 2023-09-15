@@ -1,0 +1,115 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Les Misérables",
+        "minCost"    : 49.99,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 2,
+        "name"       : "The Lion King",
+        "minCost"    : 32.99,
+        "eventColor" : "orange"
+      },
+      {
+        "id"         : 3,
+        "name"       : "The Life of Pi",
+        "minCost"    : 35.99,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 4,
+        "name"       : "Mary Poppins",
+        "minCost"    : 25.99,
+        "eventColor" : "red"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "startDate"      : "2022-07-06T15:00",
+        "endDate"        : "2022-07-06T17:00",
+        "duration"       : 2,
+        "durationUnit"   : "hour",
+        "name"           : "Les Misérables",
+        "recurrenceRule" : "FREQ=WEEKLY;UNTIL=20220831T000000",
+        "cost"           : 49.99,
+        "resourceId"     : 1
+      },
+      {
+        "startDate"      : "2022-07-09T15:00",
+        "endDate"        : "2022-07-09T17:00",
+        "duration"       : 2,
+        "durationUnit"   : "hour",
+        "name"           : "Les Misérables",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=SU,SA;UNTIL=20220831T000000",
+        "cost"           : 59.99,
+        "resourceId"     : 1
+      },
+      {
+        "startDate"      : "2022-07-09T19:00",
+        "endDate"        : "2022-07-09T21:00",
+        "duration"       : 2,
+        "durationUnit"   : "hour",
+        "name"           : "Les Misérables",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=SU,SA;UNTIL=20220831T000000",
+        "cost"           : 64.99,
+        "resourceId"     : 1
+      },
+      {
+        "startDate"      : "2022-07-07T14:00",
+        "endDate"        : "2022-07-07T16:30",
+        "duration"       : 2.5,
+        "durationUnit"   : "hour",
+        "name"           : "The Lion King",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=TH,FR;UNTIL=20220831T000000",
+        "cost"           : 32.99,
+        "resourceId"     : 2
+      },
+      {
+        "startDate"      : "2022-07-07T18:00",
+        "endDate"        : "2022-07-07T20:30",
+        "duration"       : 2.5,
+        "durationUnit"   : "hour",
+        "name"           : "The Lion King",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=TH,FR;UNTIL=20220831T000000",
+        "cost"           : 42.99,
+        "resourceId"     : 2
+      },
+      {
+        "startDate"      : "2022-07-04T15:00",
+        "endDate"        : "2022-07-04T17:30",
+        "duration"       : 2.5,
+        "durationUnit"   : "hour",
+        "name"           : "The Life of Pi",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=MO,TU;UNTIL=20220831T000000",
+        "resourceId"     : 3,
+        "cost"           : 35.99
+      },
+      {
+        "startDate"      : "2022-07-04T17:00",
+        "endDate"        : "2022-07-04T19:30",
+        "duration"       : 2.5,
+        "durationUnit"   : "hour",
+        "name"           : "The Life of Pi",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=MO,TU;UNTIL=20220831T000000",
+        "resourceId"     : 3,
+        "cost"           : 45.99
+      },
+      {
+        "startDate"      : "2022-07-04T10:00",
+        "endDate"        : "2022-07-04T12:30",
+        "duration"       : 2.5,
+        "durationUnit"   : "hour",
+        "name"           : "Mary Poppins",
+        "recurrenceRule" : "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20220831T000000",
+        "resourceId"     : 4,
+        "cost"           : 25.99
+      }
+    ]
+  }
+}

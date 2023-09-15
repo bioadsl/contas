@@ -1,0 +1,129 @@
+#calendar-container {
+    flex           : 1;
+    display        : flex;
+    flex-direction : row;
+    overflow-y     : hidden;
+}
+
+.b-grid-cell[data-column=name] i {
+    margin-inline-end : .5em;
+}
+
+#calendar-container {
+    flex           : 1 1 0;
+    display        : flex;
+    flex-direction : row;
+    align-items    : stretch;
+
+    > * {
+        height : auto;
+    }
+
+    [data-ref=schedule] {
+        flex : 1;
+    }
+
+    [data-ref=equipment] {
+        flex : 0 0 180px;
+
+        .b-grid-cell {
+            cursor : pointer;
+        }
+    }
+}
+
+.b-equipment {
+    flex-direction  : column;
+    justify-content : center;
+
+    i {
+        font-size         : 2em;
+        margin-bottom     : 0.3em;
+    }
+}
+
+i.b-equipment-icon {
+    color : #4887e5;
+
+    .b-theme-classic-dark & {
+        color : lighten(#4887e5, 10);
+    }
+
+    &.b-dragging {
+        position        : absolute;
+
+        &:not(.b-drag-final-transition) {
+            width      : 3em;
+            height     : 3em;
+            font-size  : 1.2em;
+            background : white;
+            box-shadow : 0 3px 6px #ddddddaa;
+
+            &:not(.b-drag-invalid) {
+                color : #27ca37;
+            }
+        }
+
+        display         : flex;
+        align-items     : center;
+        justify-content : center;
+        border-radius   : 50%;
+        opacity         : 1;
+
+        .b-theme-classic-dark & {
+            background : #333;
+        }
+    }
+
+    &.b-drag-final-transition {
+        font-size : 1em;
+        width     : 1em;
+        height    : 1em;
+    }
+
+    &.b-drag-final-transition,
+    &.b-aborting {
+        transition-property : transform, font-size, width, height;
+        transition-duration : 0.5s;
+    }
+}
+
+.b-cal-event-startdate {
+    opacity       : 0.6;
+    margin-bottom : 0.2em;
+}
+
+.b-cal-event-name {
+    font-weight : 600;
+    flex        : 1;
+}
+
+.b-event-header,
+.b-event-equipment-wrap {
+    display     : flex;
+    align-items : center;
+}
+
+.b-cal-event .b-event-equipment-wrap {
+    display               : grid;
+    grid-template-columns : repeat(auto-fill, minmax(1.4em, 1fr));
+    padding               : 0;
+    gap                   : 0.25em;
+    flex-shrink           : 0;
+    width                 : 100%;
+    margin                : auto 0 0.25em 0;
+
+    li.b-fa {
+        text-align: center;
+    }
+}
+
+[data-ref=equipment] {
+    .b-grid-header-text {
+        display : none;
+    }
+}
+
+.b-equipmentgrid:not(.b-collapsed) .b-panel-header {
+    height : 57px;
+}

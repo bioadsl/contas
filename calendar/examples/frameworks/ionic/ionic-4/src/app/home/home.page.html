@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+        <!-- BryntumDemoHeader component is used for Bryntum example styling only and can be removed -->
+        <bryntum-demo-header></bryntum-demo-header>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <bryntum-calendar
+        [events]              = "events"
+        [resources]           = "resources"
+        [eventTooltipFeature] = "calendarConfig.features.eventTooltip"
+        [date]                = "calendarConfig.date"
+        [modes]               = "calendarConfig.modes"
+        (onCatchAll)          = "onCalendarEvents($event)"
+    ></bryntum-calendar>
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  ".b-dayresourcecalendarrow-resource-header[data-resource-id=\"2\"]": {
+    "content": "Each selected resource has its own sub column within a day"
+  },
+
+  "[data-ref=\"showAvatars\"] input[type=\"checkbox\"]": {
+    "content": "Avatars are shown in resource headers by default",
+    "align": "t100-b100"
+  },
+
+  "[data-ref=\"viewWidth\"]": {
+    "content": "The view's <code>minResourceWidth</code> may be used to force the view to occupy adequate space"
+  }
+}

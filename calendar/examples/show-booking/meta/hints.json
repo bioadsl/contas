@@ -1,0 +1,16 @@
+{
+  "[data-ref=\"showSelector\"] input": {
+    "align": "t0-b0",
+    "content": "Select which show to display performances of"
+  },
+
+  "[data-ref=\"adminMode\"]": {
+    "align": "t100-b100",
+    "content": "Admin mode shows all performances of all shows and allows editing and rescheduling"
+  },
+
+  ".b-calendar-cell[data-date=\"2022-07-07\"] .b-cal-cell-no-content": {
+    "align": "t-b",
+    "content": "The <code>emptyCellRenderer</code> shows a clickable UI in dates for which there are no visible events"
+  }
+}

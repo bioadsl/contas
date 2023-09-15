@@ -1,0 +1,15 @@
+{
+
+  ".b-grid-row[data-index=\"1\"] .b-grid-cell div": {
+    "html": "Custom renderer added for the name column",
+    "align": "l-r"
+  },
+  ".b-group-row .b-group-title": {
+    "html": "Events grouped by custom event field <code>eventStartDate</code>",
+    "align": "b0-t0"
+  },
+  ".b-datepicker[data-ref=\"datePicker\"] .b-weeks-container": {
+    "html": "Click to select start date, SHIFT+click to select end date",
+    "align": "l-r"
+  }
+}

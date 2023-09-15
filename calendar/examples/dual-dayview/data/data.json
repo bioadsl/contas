@@ -1,0 +1,52 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Dan",
+        "eventColor" : "blue",
+        "team"       : "Austin",
+        "image"      : "dan.jpg"
+      },
+      {
+        "id"         : 2,
+        "name"       : "Macy",
+        "eventColor" : "orange",
+        "team"       : "Austin",
+        "image"      : "macy.jpg"
+      },
+      {
+        "id"         : 3,
+        "name"       : "Mark",
+        "eventColor" : "deep-orange",
+        "team"       : "Austin",
+        "image"      : "mark.jpg"
+      },
+      {
+        "id"         : 4,
+        "name"       : "Dave",
+        "eventColor" : "blue",
+        "team"       : "San Diego",
+        "image"      : "dave.jpg"
+      },
+      {
+        "id"         : 5,
+        "name"       : "Lisa",
+        "eventColor" : "green",
+        "team"       : "San Diego",
+        "image"      : "lisa.jpg"
+      },
+      {
+        "id"         : 6,
+        "name"       : "Rob",
+        "eventColor" : "red",
+        "team"       : "San Diego",
+        "image"      : "rob.jpg"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  ".b-grid-row[data-index=\"2\"]": {
+    "title": "",
+    "content": "Drag and drop these events into the calendar to schedule them. <br><br><b>Note:</b> This demo uses the <a href='https://bryntum.com/products/grid'>Bryntum Grid</a> component which is licensed separately.",
+    "align": "r-l"
+  },
+  ".b-grid-row[data-id=\"1013\"]": {
+    "title": "",
+    "content": "Drop this event into the YearView and see all occurrences appear immediately",
+    "align": "r-l"
+  },
+  ".b-cal-event-wrap[data-event-id=\"6\"]": {
+    "title": "",
+    "content": "Drag any event back into the \"Unscheduled\" grid",
+    "align": "b-t"
+  }
+}

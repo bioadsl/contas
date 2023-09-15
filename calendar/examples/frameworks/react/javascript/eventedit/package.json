@@ -1,0 +1,55 @@
+{
+  "name": "eventedit",
+  "description": "Customized Event Editor (React)",
+  "version": "5.5.2",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "postinstall"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/"
+  },
+  "dependencies": {
+    "@bryntum/calendar": "npm:@bryntum/calendar-trial@5.5.2",
+    "@bryntum/calendar-react": "5.5.2",
+    "@bryntum/demo-resources": "1.2.0",
+    "@testing-library/jest-dom": "~5.16.5",
+    "@testing-library/react": "~13.4.0",
+    "@testing-library/user-event": "~13.5.0",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "react-scripts": "~5.0.1"
+  },
+  "devDependencies": {
+    "postinstall": "~0.7.4",
+    "sass": "~1.42.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

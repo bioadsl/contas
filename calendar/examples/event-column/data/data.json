@@ -1,0 +1,499 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 3,
+        "name"       : "Michael Johnson",
+        "eventColor" : "deep-orange",
+        "image"      : "mike.jpg",
+        "role"       : "CEO"
+      }, {
+        "id"         : 4,
+        "name"       : "Dan D McClane",
+        "eventColor" : "#C16413",
+        "image"      : "dan.jpg",
+        "role"       : "Engineering manager"
+      }, {
+        "id"         : 5,
+        "name"       : "Lisa G Gennero",
+        "eventColor" : "#75F44C",
+        "image"      : "lisa.jpg",
+        "role"       : "CTO"
+      }, {
+        "id"         : 6,
+        "name"       : "Malik F Jackson",
+        "eventColor" : "#34A0D7",
+        "image"      : "malik.jpg",
+        "role"       : "Grid Product Manager"
+      }, {
+        "id"         : 7,
+        "name"       : "George E Miller",
+        "eventColor" : "#CFA664",
+        "image"      : "george.jpg",
+        "role"       : "UI Designer"
+      }, {
+        "id"         : 8,
+        "name"       : "Linda H Brown",
+        "eventColor" : "#409120",
+        "image"      : "linda.jpg",
+        "role"       : "Test Engineer"
+      }, {
+        "id"         : 9,
+        "name"       : "Macy I Taylor",
+        "eventColor" : "#21CAD0",
+        "image"      : "macy.jpg",
+        "role"       : "Scheduler Product Manager"
+      }, {
+        "id"         : 10,
+        "name"       : "Amit Banu",
+        "eventColor" : "#01F189",
+        "image"      : "amit.jpg",
+        "role"       : "Gantt Product Manager"
+      }, {
+        "id"         : 11,
+        "name"       : "Hitomi Kitaki",
+        "eventColor" : "#3E59A3",
+        "image"      : "hitomi.jpg",
+        "role"       : "Calendar Product Manager"
+      }, {
+        "id"         : 12,
+        "name"       : "Dave B Davis",
+        "eventColor" : "#FAAD7B",
+        "image"      : "dave.jpg",
+        "role"       : "SchedulerPro Product Manager"
+      }, {
+        "id"         : 13,
+        "name"       : "Lola C Ewans",
+        "eventColor" : "#972D8D",
+        "image"      : "lola.jpg",
+        "role"       : "Marketing Director"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "startDate"  : "2022-09-11T17:00:00",
+        "endDate"    : "2022-09-18T12:00:00",
+        "name"       : "BryntumCon 2020",
+        "eventColor" : "green",
+        "room"       : "External"
+      }, {
+        "id"        : 2,
+        "startDate" : "2022-09-11T17:00:00",
+        "endDate"   : "2022-09-11T19:00:00",
+        "name"      : "Relax and official arrival beer",
+        "room"      : "Bar"
+      }, {
+        "id"             : 3,
+        "startDate"      : "2022-09-11T19:00:00",
+        "endDate"        : "2022-09-11T21:00:00",
+        "name"           : "Dinner",
+        "recurrenceRule" : "FREQ=DAILY;INTERVAL=1;UNTIL=20201017",
+        "eventColor"     : "blue",
+        "room"           : "Restaurant"
+      }, {
+        "id"             : 4,
+        "startDate"      : "2022-09-12T08:00:00",
+        "endDate"        : "2022-09-12T09:30:00",
+        "name"           : "Breakfast",
+        "recurrenceRule" : "FREQ=DAILY;INTERVAL=1;UNTIL=20201019",
+        "eventColor"     : "blue",
+        "room"           : "Restaurant"
+      }, {
+        "id"             : 5,
+        "startDate"      : "2022-09-12T13:00:00",
+        "endDate"        : "2022-09-12T14:30:00",
+        "name"           : "Lunch",
+        "recurrenceRule" : "FREQ=DAILY;INTERVAL=1;UNTIL=20201018",
+        "eventColor"     : "blue",
+        "room"           : "Restaurant"
+      }, {
+        "id"             : 6,
+        "startDate"      : "2022-09-12T14:30:00",
+        "endDate"        : "2022-09-12T16:00:00",
+        "name"           : "Pair programming",
+        "recurrenceRule" : "FREQ=DAILY;INTERVAL=1;UNTIL=20201018",
+        "exceptionDates" : ["2022-09-17T00:00:00"],
+        "eventColor"     : "indigo",
+        "room"           : "Meeting Room 1"
+      }, {
+        "id"             : 7,
+        "startDate"      : "2022-09-12T14:30:00",
+        "endDate"        : "2022-09-12T16:00:00",
+        "name"           : "HackLab",
+        "recurrenceRule" : "FREQ=DAILY;INTERVAL=1;UNTIL=20201018",
+        "exceptionDates" : ["2022-09-17T00:00:00"],
+        "eventColor"     : "green",
+        "room"           : "Meeting Room 1"
+      }, {
+        "id"         : 9,
+        "startDate"  : "2022-09-17T19:00:00",
+        "endDate"    : "2022-09-17T22:00:00",
+        "name"       : "Dinner +\nAfter Party",
+        "eventColor" : "green",
+        "room"       : "Restaurant"
+      }, {
+        "id"         : 100,
+        "startDate"  : "2022-09-12T09:30:00",
+        "endDate"    : "2022-09-12T11:00:00",
+        "name"       : "Keynote",
+        "resourceId" : 3,
+        "eventColor" : "green",
+        "room"       : "Auditorium 1"
+      }, {
+        "id"         : 101,
+        "startDate"  : "2022-09-12T11:00:00",
+        "endDate"    : "2022-09-12T13:00:00",
+        "name"       : "Grid 101",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 102,
+        "startDate"  : "2022-09-12T11:00:00",
+        "endDate"    : "2022-09-12T13:00:00",
+        "name"       : "Scheduler 101",
+        "resourceId" : 9,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 103,
+        "startDate"  : "2022-09-12T11:00:00",
+        "endDate"    : "2022-09-12T13:00:00",
+        "name"       : "Calendar 101",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 3"
+      }, {
+        "id"         : 104,
+        "startDate"  : "2022-09-12T11:00:00",
+        "endDate"    : "2022-09-12T13:00:00",
+        "name"       : "Gantt 101",
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 4"
+      }, {
+        "id"         : 110,
+        "startDate"  : "2022-09-12T16:00:00",
+        "endDate"    : "2022-09-12T18:00:00",
+        "name"       : "Calendar Features",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 111,
+        "startDate"  : "2022-09-12T16:00:00",
+        "endDate"    : "2022-09-12T18:00:00",
+        "name"       : "Events",
+        "resourceId" : 4,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 112,
+        "startDate"  : "2022-09-12T18:00:00",
+        "endDate"    : "2022-09-12T20:00:00",
+        "name"       : "Calendar Data",
+        "resourceId" : 8,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 3"
+      }, {
+        "id"         : 115,
+        "startDate"  : "2022-09-12T18:00:00",
+        "endDate"    : "2022-09-12T20:00:00",
+        "name"       : "Assignments",
+        "resourceId" : 6,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 6"
+      }, {
+        "id"         : 201,
+        "startDate"  : "2022-09-13T09:30:00",
+        "endDate"    : "2022-09-13T11:00:00",
+        "name"       : "Grid Q&A",
+        "resourceId" : 4,
+        "eventColor" : "deep-orange",
+        "room"       : "Auditorium 1"
+      }, {
+        "id"         : 202,
+        "startDate"  : "2022-09-13T11:00:00",
+        "endDate"    : "2022-09-13T13:00:00",
+        "name"       : "Grid 101",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 203,
+        "startDate"  : "2022-09-13T11:00:00",
+        "endDate"    : "2022-09-13T13:00:00",
+        "name"       : "Scheduler 101",
+        "resourceId" : 9,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 204,
+        "startDate"  : "2022-09-13T11:00:00",
+        "endDate"    : "2022-09-13T13:00:00",
+        "name"       : "Calendar 101",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 3"
+      }, {
+        "id"         : 205,
+        "startDate"  : "2022-09-13T11:00:00",
+        "endDate"    : "2022-09-13T13:00:00",
+        "name"       : "Gantt 101",
+        "resourceId" : 10,
+        "eventColor" : "orange",
+        "room"       : "Auditorium 1"
+      }, {
+        "id"         : 210,
+        "startDate"  : "2022-09-13T16:00:00",
+        "endDate"    : "2022-09-13T18:00:00",
+        "name"       : "Calendar Features",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 211,
+        "startDate"  : "2022-09-13T16:00:00",
+        "endDate"    : "2022-09-13T18:00:00",
+        "name"       : "Events",
+        "resourceId" : 7,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 214,
+        "startDate"  : "2022-09-13T18:00:00",
+        "endDate"    : "2022-09-13T20:00:00",
+        "name"       : "Calendar Sidebar",
+        "resourceId" : 7,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 215,
+        "startDate"  : "2022-09-13T18:00:00",
+        "endDate"    : "2022-09-13T20:00:00",
+        "name"       : "Assignments",
+        "resourceId" : 10,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 301,
+        "startDate"  : "2022-09-14T09:30:00",
+        "endDate"    : "2022-09-14T11:00:00",
+        "name"       : "Calendar Q&A",
+        "resourceId" : 4,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 302,
+        "startDate"  : "2022-09-14T11:00:00",
+        "endDate"    : "2022-09-14T13:00:00",
+        "name"       : "Grid 101",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 303,
+        "startDate"  : "2022-09-14T11:00:00",
+        "endDate"    : "2022-09-14T13:00:00",
+        "name"       : "Scheduler 101",
+        "resourceId" : 9,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 3"
+      }, {
+        "id"         : 305,
+        "startDate"  : "2022-09-14T11:00:00",
+        "endDate"    : "2022-09-14T13:00:00",
+        "name"       : "Gantt 101",
+        "resourceId" : 10,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 4"
+      }, {
+        "id"         : 310,
+        "startDate"  : "2022-09-14T16:00:00",
+        "endDate"    : "2022-09-14T18:00:00",
+        "name"       : "Calendar Features",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 311,
+        "startDate"  : "2022-09-14T16:00:00",
+        "endDate"    : "2022-09-14T18:00:00",
+        "name"       : "Events",
+        "resourceId" : 7,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 314,
+        "startDate"  : "2022-09-14T18:00:00",
+        "endDate"    : "2022-09-14T20:00:00",
+        "name"       : "Calendar Sidebar",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Auditorium 1"
+      }, {
+        "id"         : 315,
+        "startDate"  : "2022-09-14T18:00:00",
+        "endDate"    : "2022-09-14T20:00:00",
+        "name"       : "Assignments",
+        "resourceId" : 4,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 401,
+        "startDate"  : "2022-09-15T09:30:00",
+        "endDate"    : "2022-09-15T11:00:00",
+        "name"       : "Scheduler Q&A",
+        "resourceId" : 9,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 402,
+        "startDate"  : "2022-09-15T11:00:00",
+        "endDate"    : "2022-09-15T13:00:00",
+        "name"       : "Grid 101",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 403,
+        "startDate"  : "2022-09-15T11:00:00",
+        "endDate"    : "2022-09-15T13:00:00",
+        "name"       : "Scheduler 101",
+        "resourceId" : 9,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 3"
+      }, {
+        "id"         : 405,
+        "startDate"  : "2022-09-15T11:00:00",
+        "endDate"    : "2022-09-15T13:00:00",
+        "name"       : "Gantt 101",
+        "resourceId" : 10,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 4"
+      }, {
+        "id"         : 410,
+        "startDate"  : "2022-09-15T16:00:00",
+        "endDate"    : "2022-09-15T18:00:00",
+        "name"       : "Calendar Features",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 411,
+        "startDate"  : "2022-09-15T16:00:00",
+        "endDate"    : "2022-09-15T18:00:00",
+        "name"       : "Events",
+        "resourceId" : 7,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 414,
+        "startDate"  : "2022-09-15T18:00:00",
+        "endDate"    : "2022-09-15T20:00:00",
+        "name"       : "Calendar Sidebar",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 415,
+        "startDate"  : "2022-09-15T18:00:00",
+        "endDate"    : "2022-09-15T20:00:00",
+        "name"       : "Assignments",
+        "resourceId" : 12,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 501,
+        "startDate"  : "2022-09-16T09:30:00",
+        "endDate"    : "2022-09-16T11:00:00",
+        "name"       : "Gantt Q&A",
+        "resourceId" : 10,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 502,
+        "startDate"  : "2022-09-16T11:00:00",
+        "endDate"    : "2022-09-16T13:00:00",
+        "name"       : "Grid 101",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 505,
+        "startDate"  : "2022-09-16T11:00:00",
+        "endDate"    : "2022-09-16T13:00:00",
+        "name"       : "Gantt 101",
+        "resourceId" : 10,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 4"
+      }, {
+        "id"         : 510,
+        "startDate"  : "2022-09-16T16:00:00",
+        "endDate"    : "2022-09-16T18:00:00",
+        "name"       : "Calendar Features",
+        "resourceId" : 11,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 511,
+        "startDate"  : "2022-09-16T16:00:00",
+        "endDate"    : "2022-09-16T18:00:00",
+        "name"       : "Events",
+        "resourceId" : 8,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 514,
+        "startDate"  : "2022-09-16T18:00:00",
+        "endDate"    : "2022-09-16T20:00:00",
+        "name"       : "Calendar Sidebar",
+        "resourceId" : 6,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 515,
+        "startDate"  : "2022-09-16T18:00:00",
+        "endDate"    : "2022-09-16T20:00:00",
+        "name"       : "Assignments",
+        "resourceId" : 12,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 611,
+        "startDate"  : "2022-09-17T09:30:00",
+        "endDate"    : "2022-09-17T11:00:00",
+        "name"       : "Customer Story\nTBD",
+        "resourceId" : 3,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 612,
+        "startDate"  : "2022-09-17T11:00:00",
+        "endDate"    : "2022-09-17T12:30:00",
+        "name"       : "Customer Story\nShipping Guru",
+        "resourceId" : 13,
+        "eventColor" : "deep-orange",
+        "room"       : "Meeting Room 1"
+      }, {
+        "id"         : 613,
+        "startDate"  : "2022-09-17T14:30:00",
+        "endDate"    : "2022-09-17T16:00:00",
+        "name"       : "Customer Story\nTBD",
+        "resourceId" : 13,
+        "eventColor" : "orange",
+        "room"       : "Meeting Room 2"
+      }, {
+        "id"         : 1000,
+        "startDate"  : "2022-09-18T10:00:00",
+        "endDate"    : "2022-09-18T12:00:00",
+        "name"       : "Check-Out & Fly home",
+        "eventColor" : "green",
+        "room"       : "External"
+      }
+    ]
+  }
+}

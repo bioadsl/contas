@@ -1,0 +1,21 @@
+.b-tabpanel-body.b-card-container {
+  padding: 0;
+}
+
+.b-calendar .b-scheduler {
+  border-inline-start: 1px solid #ddd;
+}
+.b-calendar .b-scheduler .b-sch-event .b-sch-event-content {
+  flex: 1;
+}
+.b-calendar .b-scheduler .b-sch-event .b-event-time {
+  font-size: 0.7em;
+}
+.b-calendar .b-scheduler .b-sch-event .b-event-header i {
+  font-size: 0.7em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+}
+
+/*# sourceMappingURL=app.css.map */

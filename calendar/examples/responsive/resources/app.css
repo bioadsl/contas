@@ -1,0 +1,16 @@
+#container {
+  background: #ccc;
+}
+#container .b-calendar {
+  align-self: center;
+  width: 100%;
+  max-width: 100%;
+  transition: max-width 0.3s;
+}
+
+[data-ref=responsiveSizePicker] {
+  font-weight: 700;
+  font-size: 105%;
+}
+
+/*# sourceMappingURL=app.css.map */

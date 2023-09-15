@@ -1,0 +1,48 @@
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/**
+ *
+ * The DayView. Days are vertical stack of hours in which intra day events are rendered.
+ * A DayView can show a single of many days side by side.
+ *
+ */
+/*
+ * Calendar View styles
+ *
+ */
+/*
+ * Calendar header row styles
+ *
+ */
+/**
+ * DayResourceView styles
+ */
+.b-dualdayview-content {
+  padding: 0;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+.b-dualdayview-content > .b-dayview {
+  flex: 1 1 0;
+}
+.b-dualdayview-content > .b-dayview .b-dayview-day-content {
+  border-top: 0 none;
+}
+.b-dualdayview-content > .b-dayview:nth-child(1) {
+  border-inline-end: 1px solid #ddd;
+}
+.b-dualdayview-content > .b-dayview:nth-child(2) {
+  border-inline-start: 1px solid #ddd;
+}
+
+.b-draghelper-active .b-dualdayview-dayselector {
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=dualdayview.css.map */

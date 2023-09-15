@@ -1,0 +1,285 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Dan",
+        "eventColor" : "blue",
+        "team"       : "Austin",
+        "image"      : "dan.jpg"
+      },
+      {
+        "id"         : 2,
+        "name"       : "Macy",
+        "eventColor" : "orange",
+        "team"       : "Austin",
+        "image"      : "macy.jpg"
+      },
+      {
+        "id"         : 3,
+        "name"       : "Mark",
+        "eventColor" : "deep-orange",
+        "team"       : "Austin",
+        "image"      : "mark.jpg"
+      },
+      {
+        "id"         : 4,
+        "name"       : "Dave",
+        "eventColor" : "blue",
+        "team"       : "San Diego",
+        "image"      : "dave.jpg"
+      },
+      {
+        "id"         : 5,
+        "name"       : "Lisa",
+        "eventColor" : "green",
+        "team"       : "San Diego",
+        "image"      : "lisa.jpg"
+      },
+      {
+        "id"         : 6,
+        "name"       : "Rob",
+        "eventColor" : "red",
+        "team"       : "San Diego",
+        "image"      : "rob.jpg"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "startDate"  : "2023-04-02T08:00:00",
+        "endDate"    : "2023-04-02T10:00:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 1,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 2,
+        "startDate"  : "2023-04-02T11:00:00",
+        "endDate"    : "2023-04-02T12:30:00",
+        "name"       : "Product Development Meeting",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 3,
+        "startDate"  : "2023-04-02T13:00:00",
+        "endDate"    : "2023-04-02T16:00:00",
+        "name"       : "Quarterly Sales Meeting",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 4,
+        "startDate"  : "2023-04-03T08:00:00",
+        "endDate"    : "2023-04-03T10:00:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 5,
+        "startDate"  : "2023-04-03T11:00:00",
+        "endDate"    : "2023-04-03T13:00:00",
+        "name"       : "Marketing Strategy Session",
+        "resourceId" : 1,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 6,
+        "startDate"  : "2023-04-04T08:00:00",
+        "endDate"    : "2023-04-04T11:00:00",
+        "name"       : "Product Planning Meeting",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 7,
+        "startDate"  : "2023-04-04T12:00:00",
+        "endDate"    : "2023-04-04T15:00:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 1,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 8,
+        "startDate"  : "2023-04-05T08:00:00",
+        "endDate"    : "2023-04-05T11:00:00",
+        "name"       : "Customer Service Training",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 9,
+        "startDate"  : "2023-04-05T12:00:00",
+        "endDate"    : "2023-04-05T14:00:00",
+        "name"       : "Sales Strategy Meeting",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 10,
+        "startDate"  : "2023-04-06T08:00:00",
+        "endDate"    : "2023-04-06T10:00:00",
+        "name"       : "Product Launch Strategy Meeting",
+        "resourceId" : 1,
+        "eventColor" : "pink"
+      },
+      {
+        "id"         : 12,
+        "startDate"  : "2023-04-06T13:00:00",
+        "endDate"    : "2023-04-06T14:30:00",
+        "name"       : "Marketing Campaign Review",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 13,
+        "startDate"  : "2023-04-07T09:00:00",
+        "endDate"    : "2023-04-07T11:00:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 14,
+        "startDate"  : "2023-04-07T13:30:00",
+        "endDate"    : "2023-04-07T16:00:00",
+        "name"       : "Client Meeting",
+        "resourceId" : 1,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 15,
+        "startDate"  : "2023-04-08T08:00:00",
+        "endDate"    : "2023-04-08T09:30:00",
+        "name"       : "Product Demo",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 16,
+        "startDate"  : "2023-04-08T11:00:00",
+        "endDate"    : "2023-04-08T13:00:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 17,
+        "startDate"  : "2023-04-09T09:00:00",
+        "endDate"    : "2023-04-09T11:00:00",
+        "name"       : "Product Launch Meeting",
+        "resourceId" : 1,
+        "eventColor" : "pink"
+      },
+      {
+        "id"         : 18,
+        "startDate"  : "2023-04-09T13:00:00",
+        "endDate"    : "2023-04-09T15:00:00",
+        "name"       : "Finance Review",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 19,
+        "startDate"  : "2023-04-10T10:00:00",
+        "endDate"    : "2023-04-10T12:00:00",
+        "name"       : "Sales Training",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 20,
+        "startDate"  : "2023-04-10T13:30:00",
+        "endDate"    : "2023-04-10T15:00:00",
+        "name"       : "Product Planning Session",
+        "resourceId" : 1,
+        "eventColor" : "pink"
+      },
+      {
+        "id"         : 21,
+        "startDate"  : "2023-04-02T09:00:00",
+        "endDate"    : "2023-04-02T11:00:00",
+        "name"       : "Sales Call",
+        "resourceId" : 2,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 22,
+        "startDate"  : "2023-04-03T14:00:00",
+        "endDate"    : "2023-04-03T16:00:00",
+        "name"       : "Client Meeting",
+        "resourceId" : 3,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 23,
+        "startDate"  : "2023-04-04T10:00:00",
+        "endDate"    : "2023-04-04T11:30:00",
+        "name"       : "Product Demo",
+        "resourceId" : 1,
+        "eventColor" : "pink"
+      },
+      {
+        "id"         : 24,
+        "startDate"  : "2023-04-04T13:00:00",
+        "endDate"    : "2023-04-04T14:30:00",
+        "name"       : "Product Planning Session",
+        "resourceId" : 2,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 25,
+        "startDate"  : "2023-04-05T09:30:00",
+        "endDate"    : "2023-04-05T11:00:00",
+        "name"       : "Finance Meeting",
+        "resourceId" : 3,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 26,
+        "startDate"  : "2023-04-05T13:30:00",
+        "endDate"    : "2023-04-05T15:30:00",
+        "name"       : "Product Launch Meeting",
+        "resourceId" : 1,
+        "eventColor" : "pink"
+      },
+      {
+        "id"         : 27,
+        "startDate"  : "2023-04-06T08:00:00",
+        "endDate"    : "2023-04-06T09:30:00",
+        "name"       : "Team Building Workshop",
+        "resourceId" : 2,
+        "eventColor" : "purple"
+      },
+      {
+        "id"         : 28,
+        "startDate"  : "2023-04-06T11:00:00",
+        "endDate"    : "2023-04-06T12:30:00",
+        "name"       : "Product Demo",
+        "resourceId" : 3,
+        "eventColor" : "blue"
+      },
+      {
+        "id"         : 29,
+        "startDate"  : "2023-04-07T09:00:00",
+        "endDate"    : "2023-04-07T10:30:00",
+        "name"       : "Marketing Campaign Review",
+        "resourceId" : 1,
+        "eventColor" : "green"
+      },
+      {
+        "id"         : 30,
+        "startDate"  : "2023-04-07T14:00:00",
+        "endDate"    : "2023-04-07T16:00:00",
+        "name"       : "Client Meeting",
+        "resourceId" : 2,
+        "eventColor" : "blue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "success" : true,
+  "events"  : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "startDate"  : "2022-01-31T11:12:00",
+        "endDate"    : "2022-01-31T11:48:00",
+        "name"       : "Client Meeting",
+        "resourceId" : 1
+      }, {
+        "id"         : 2,
+        "startDate"  : "2022-02-02T14:00:00",
+        "endDate"    : "2022-02-02T14:54:00",
+        "name"       : "Court Hearing",
+        "resourceId" : 2
+      }, {
+        "id"         : 3,
+        "startDate"  : "2022-02-03T10:24:00",
+        "endDate"    : "2022-02-03T11:42:00",
+        "name"       : "Partner Meeting",
+        "resourceId" : 3
+      }, {
+        "id"         : 4,
+        "startDate"  : "2022-02-04T10:00:00",
+        "endDate"    : "2022-02-04T11:00:00",
+        "name"       : "Team Meeting",
+        "resourceId" : 4
+      }, {
+        "id"         : 5,
+        "startDate"  : "2022-02-05T12:00:00",
+        "endDate"    : "2022-02-05T13:18:00",
+        "name"       : "Deposition",
+        "resourceId" : 5
+      }, {
+        "id"         : 6,
+        "startDate"  : "2022-01-31T09:06:00",
+        "endDate"    : "2022-01-31T10:06:00",
+        "name"       : "Client Meeting",
+        "resourceId" : 1
+      }, {
+        "id"         : 7,
+        "startDate"  : "2022-02-02T14:00:00",
+        "endDate"    : "2022-02-02T15:30:00",
+        "name"       : "Court Hearing",
+        "resourceId" : 6
+      }, {
+        "id"         : 8,
+        "startDate"  : "2022-02-01T12:00:00",
+        "endDate"    : "2022-02-01T13:42:00",
+        "name"       : "Partner Meeting",
+        "resourceId" : 3
+      }, {
+        "id"         : 9,
+        "startDate"  : "2022-02-02T10:00:00",
+        "endDate"    : "2022-02-02T11:00:00",
+        "name"       : "Team Meeting",
+        "resourceId" : 4
+      }, {
+        "id"         : 10,
+        "startDate"  : "2022-02-03T12:00:00",
+        "endDate"    : "2022-02-03T12:36:00",
+        "name"       : "Deposition",
+        "resourceId" : 5
+      }
+    ]
+  },
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Conference Room A",
+        "eventColor" : "blue"
+      }, {
+        "id"         : 2,
+        "name"       : "Courtroom 2",
+        "eventColor" : "orange"
+      }, {
+        "id"         : 3,
+        "name"       : "Partner's Office",
+        "eventColor" : "deep-orange"
+      }, {
+        "id"         : 4,
+        "name"       : "Conference Room B",
+        "eventColor" : "green"
+      }, {
+        "id"         : 5,
+        "name"       : "Conference Room C",
+        "eventColor" : "red"
+      }, {
+        "id"         : 6,
+        "name"       : "Courtroom 3",
+        "eventColor" : "cyan"
+      }
+    ]
+  }
+}

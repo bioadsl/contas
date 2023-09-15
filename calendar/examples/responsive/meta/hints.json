@@ -1,0 +1,6 @@
+{
+  "[data-ref=\"responsiveSizePicker\"]": {
+    "title": "",
+    "content": "Responsive level. Will adapt as the browser width is resized.<p>A size <b>smaller</b> than the browser width may be chosen to resize the UI within the available width."
+  }
+}

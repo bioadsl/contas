@@ -1,0 +1,4 @@
+{
+  "title": "Basic demo (Angular View Engine)",
+  "description": "This demo shows you how use the Calendar web component in Angular. Data is loaded from server with HttpClient."
+}

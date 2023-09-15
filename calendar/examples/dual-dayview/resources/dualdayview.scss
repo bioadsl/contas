@@ -1,0 +1,27 @@
+@import '../../../resources/sass/variables';
+
+.b-dualdayview-content {
+    padding     : 0;
+    flex-flow   : row nowrap;
+    align-items : stretch;
+
+    > .b-dayview {
+        flex : 1 1 0;
+
+        .b-dayview-day-content {
+            border-top: 0 none;
+        }
+
+        &:nth-child(1) {
+            border-inline-end : 1px solid $dayview-border-color;
+        }
+        &:nth-child(2) {
+            border-inline-start : 1px solid $dayview-border-color;
+        }
+    }
+}
+
+// Drag must not be active over the day selector - it's not a drop target
+.b-draghelper-active .b-dualdayview-dayselector {
+    pointer-events: none;
+}

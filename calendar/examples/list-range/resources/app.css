@@ -1,0 +1,19 @@
+.b-container[data-ref=rangeDisplay] {
+  gap: 0.3em;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+.b-container[data-ref=rangeDisplay] > .b-field {
+  margin-bottom: 0;
+}
+.b-container[data-ref=rangeDisplay] > .b-field input {
+  padding: 0.8em 0.3em;
+  text-align: center;
+}
+
+.b-sidebar .b-sidebar-content.b-panel-content {
+  padding: 1.5em;
+}
+
+/*# sourceMappingURL=app.css.map */

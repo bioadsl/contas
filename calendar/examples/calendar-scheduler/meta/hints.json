@@ -1,0 +1,10 @@
+{
+  "#title": {
+    "title": "Calendar + Scheduler",
+    "content": "This example shows how to include a Scheduler as a Calendar mode.<br><br><b>Note:</b> This demo uses the <a href='https://bryntum.com/products/scheduler'>Bryntum Scheduler</a> component which is licensed separately."
+  },
+  "[data-ref='timelineShowButton']": {
+    "title": "Show scheduler",
+    "content": "Click this button to show the Scheduler."
+  }
+}

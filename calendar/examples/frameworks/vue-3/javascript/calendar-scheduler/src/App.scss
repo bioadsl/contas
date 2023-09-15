@@ -1,0 +1,31 @@
+/**
+ * Application global styles
+ */
+@import '~@bryntum/calendar/calendar.stockholm.css';
+@import '~@bryntum/demo-resources/scss/example.scss';
+
+.b-tabpanel-body.b-card-container {
+    padding : 0;
+}
+
+.b-calendar .b-scheduler {
+    border-inline-start : 1px solid #ddd;
+
+    .b-sch-event {
+        .b-sch-event-content {
+            flex: 1;
+        }
+
+        .b-event-time {
+            color     : #606060;
+            font-size : .7em;
+        }
+
+        .b-event-header i {
+            font-size : 0.7em;
+            position  : absolute;
+            right     : 0;
+            top       : 0.5em;
+        }
+    }
+}

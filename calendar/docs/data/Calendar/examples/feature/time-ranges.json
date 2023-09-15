@@ -1,0 +1,119 @@
+{
+  "success" : true,
+
+  "resources" : {
+    "rows" : []
+  },
+
+  "timeRanges" : {
+    "rows" : [
+      {
+        "id"        : 10,
+        "name"      : "Header",
+        "startDate" : "2020-03-03T10:00:00",
+        "endDate"   : "2020-03-03T13:00:00",
+        "color"     : "purple",
+        "iconCls"   : "b-icon b-fa-globe",
+        "footer"    : "(footer)"
+      },
+      {
+        "id"        : 11,
+        "name"      : "Header (end)",
+        "startDate" : "2020-03-03T13:00:00",
+        "endDate"   : "2020-03-03T16:00:00",
+        "color"     : "deep-orange",
+        "alignment" : "end"
+      },
+      {
+        "id"        : 12,
+        "name"      : "Just a line...",
+        "startDate" : "2020-03-03T16:30",
+        "color"     : "red",
+        "cls"       : "dashed"
+      },
+      {
+        "id"        : 13,
+        "startDate" : "2020-03-03T17:00:00",
+        "endDate"   : "2020-03-03T20:00:00",
+        "cls"       : "hatch-large"
+      },
+
+      {
+        "id"        : 20,
+        "name"      : "Header (end)",
+        "startDate" : "2020-03-04T10:00:00",
+        "endDate"   : "2020-03-04T13:00:00",
+        "color"     : "purple",
+        "cls"       : "hatch-large",
+        "alignment" : "end",
+        "iconCls"   : "b-icon b-fa-plug",
+        "rotation"  : "neg",
+        "footer"    : "(footer)"
+      },
+      {
+        "id"        : 21,
+        "name"      : "Header",
+        "startDate" : "2020-03-04T13:30:00",
+        "endDate"   : "2020-03-04T16:00:00",
+        "color"     : "deep-orange",
+        "cls"       : "hatch-large b-cal-timerange-stretch",
+        "rotation"  : "pos"
+      },
+      {
+        "id"        : 22,
+        "name"      : "Just a line...",
+        "startDate" : "2020-03-04T16:30",
+        "color"     : "purple",
+        "cls"       : "b-cal-timerange-hover-zoom"
+      },
+      {
+        "id"        : 23,
+        "startDate" : "2020-03-04T17:00:00",
+        "endDate"   : "2020-03-04T20:00:00",
+        "cls"       : "hatch-large b-cal-timerange-stretch"
+      }
+    ]
+  },
+
+  "events" : {
+    "rows" : [
+      {
+        "id"        : 1,
+        "startDate" : "2020-03-03T11:00:00",
+        "endDate"   : "2020-03-03T12:00:00",
+        "name"      : "Morning meeting"
+      },
+      {
+        "id"        : 2,
+        "startDate" : "2020-03-03T14:00:00",
+        "endDate"   : "2020-03-03T15:00:00",
+        "name"      : "Afternoon meeting"
+      },
+      {
+        "id"        : 3,
+        "startDate" : "2020-03-03T18:00:00",
+        "endDate"   : "2020-03-03T19:00:00",
+        "name"      : "Evening meeting"
+      },
+
+      {
+        "id"        : 11,
+        "startDate" : "2020-03-04T11:00:00",
+        "endDate"   : "2020-03-04T12:00:00",
+        "name"      : "Morning meeting"
+      },
+      {
+        "id"        : 12,
+        "startDate" : "2020-03-04T14:00:00",
+        "endDate"   : "2020-03-04T15:00:00",
+        "name"      : "Afternoon meeting"
+      },
+      {
+        "id"        : 13,
+        "startDate" : "2020-03-04T18:00:00",
+        "endDate"   : "2020-03-04T19:00:00",
+        "name"      : "Evening meeting"
+      }
+    ]
+  }
+}

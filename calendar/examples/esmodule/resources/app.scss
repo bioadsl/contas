@@ -1,0 +1,226 @@
+* {
+    box-sizing : border-box;
+}
+
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-200 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-800 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-900 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../../../resources/fonts/poppins-v20-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../resources/fonts/poppins-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+$primary-color : #0d47a1;
+
+body {
+    font-family    : Poppins, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin         : 0;
+    display        : flex !important;
+    flex-direction : column;
+    line-height    : normal;
+}
+
+.header-bg {
+    position         : absolute;
+    top              : 0;
+    left             : 0;
+    right            : 0;
+    height           : 5em;
+    background-color : $primary-color;
+}
+
+.content {
+    min-width : 300px;
+    max-width : 1024px;
+    margin    : 0 auto;
+    position  : relative;
+    padding   : 0 2rem 2rem 2rem;
+}
+
+.content > header {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : flex-end;
+    height          : 5em;
+    padding-bottom  : 0.8em;
+}
+
+header h1 {
+    color  : #fff;
+    margin : 0;
+}
+
+header a {
+    text-decoration : none;
+
+    i {
+        margin-inline-end : 0.3em;
+    }
+}
+
+nav {
+    a {
+        color             : #fff;
+        margin-inline-end : 1rem;
+        font-weight       : bold;
+        position          : relative;
+
+        &::before {
+            display          : inline-block;
+            position         : absolute;
+            background-color : #fff421;
+            height           : 2px;
+            left             : 50%;
+            right            : 50%;
+            bottom           : -7px;
+            content          : '';
+            transition       : left 0.2s, right 0.2s, color 0.2s;
+        }
+
+        &:hover,
+        &:first-child {
+            color : #fff421;
+        }
+
+        &:hover::before,
+        &:first-child::before {
+            left  : 0;
+            right : 0;
+        }
+    }
+}
+
+.small {
+    font-weight: bold;
+    color         : $primary-color;
+    margin-bottom : 1rem;
+}
+
+.big {
+    font-weight : bold;
+    font-size   : 2rem;
+    color       : #666;
+}
+
+article {
+    padding : 2rem 0;
+}
+
+section {
+    line-height : 170%;
+}
+
+.article-bg {
+    padding          : 2rem;
+    background-color : #f3f3f3;
+}
+
+.b-responsive-small.b-view {
+    font-size : 12px;
+}
+
+@media (max-width : 480px) {
+    nav a {
+        display : none;
+    }
+
+    nav::before {
+        content           : '\f0c9';
+        font-family       : 'Font Awesome 6 Free', serif;
+        font-weight       : 900;
+        margin-inline-end : 1rem;
+        font-size         : 2rem;
+        color             : #fff;
+        cursor            : pointer;
+    }
+
+    nav:hover::before {
+        color : #fff421;
+    }
+}
+
+
+#download-trial {
+    display: inline-block;
+}
+
+@media (max-width : 800px) {
+    #trial-button {
+        display : none;
+    }
+}
+

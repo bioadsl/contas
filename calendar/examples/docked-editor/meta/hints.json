@@ -1,0 +1,6 @@
+{
+  ".b-cal-event-wrap[data-event-id=\"17\"]": {
+    "title": "Event editor is an overlayed sidebar",
+    "content": "Double click the event to edit it in a docked panel"
+  }
+}

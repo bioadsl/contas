@@ -1,0 +1,10 @@
+{
+  "[data-event-id=\"6\"] .b-avatars-container": {
+    "align": {
+      "align": "l-r60",
+      "offset": [5, 0]
+    },
+    "title": "List of items",
+    "content": "Each event can contain an arbitrary list of items. Invoke the event editor to manipulate the list."
+  }
+}

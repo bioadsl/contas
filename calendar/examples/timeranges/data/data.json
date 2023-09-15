@@ -1,0 +1,396 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : "bryntum",
+        "name"       : "Bryntum team",
+        "eventColor" : "yellow"
+      },
+      {
+        "id"         : "hotel",
+        "name"       : "Hotel Park",
+        "eventColor" : "orange"
+      }
+    ]
+  },
+  "timeRanges" : {
+    "rows" : [
+      {
+        "id"        : 1,
+        "name"      : "Arrival / Pre-conference",
+        "startDate" : "2020-10-11 13:30",
+        "endDate"   : "2020-10-11 21:00",
+        "color"     : "red",
+        "iconCls"   : "b-icon b-fa-plane"
+      },
+      {
+        "id"        : 10,
+        "name"      : "Morning sessions",
+        "startDate" : "2020-10-12 10:00",
+        "endDate"   : "2020-10-12 14:00",
+        "color"     : "lime"
+      },
+      {
+        "id"        : 11,
+        "name"      : "Afternoon sessions",
+        "startDate" : "2020-10-12 15:00",
+        "endDate"   : "2020-10-12 19:00",
+        "color"     : "indigo"
+      },
+      {
+        "id"        : 20,
+        "name"      : "Morning sessions",
+        "startDate" : "2020-10-13 10:00",
+        "endDate"   : "2020-10-13 14:00",
+        "cls"       : "hatch-large",
+        "color"     : "lime"
+      },
+      {
+        "id"        : 21,
+        "name"      : "Afternoon sessions",
+        "startDate" : "2020-10-13 15:00",
+        "endDate"   : "2020-10-13 19:00",
+        "color"     : "indigo"
+      },
+      {
+        "id"        : 30,
+        "name"      : "Morning sessions",
+        "startDate" : "2020-10-14 10:00",
+        "endDate"   : "2020-10-14 14:00",
+        "color"     : "lime"
+      },
+      {
+        "id"        : 31,
+        "name"      : "Afternoon sessions",
+        "startDate" : "2020-10-14 15:00",
+        "endDate"   : "2020-10-14 19:00",
+        "color"     : "indigo"
+      },
+      {
+        "id"        : 40,
+        "name"      : "Calendar / Taskboard Track",
+        "startDate" : "2020-10-15 10:00",
+        "endDate"   : "2020-10-15 14:00",
+        "color"     : "yellow"
+      },
+      {
+        "id"        : 45,
+        "name"      : "Grid / Scheduler / Gantt Track",
+        "alignment" : "end",
+        "startDate" : "2020-10-15 10:00",
+        "endDate"   : "2020-10-15 14:00",
+        "color"     : "lime"
+      },
+      {
+        "id"        : 50,
+        "name"      : "Official conference end",
+        "startDate" : "2020-10-15 15:00",
+        "cls"       : "end-line",
+        "color"     : "blue"
+      },
+      {
+        "id"        : 51,
+        "name"      : "Post-conference",
+        "alignment" : "end",
+        "startDate" : "2020-10-15 15:00",
+        "endDate"   : "2020-10-15 20:00",
+        "color"     : "red"
+      },
+      {
+        "id"        : 60,
+        "name"      : "Departure",
+        "alignment" : "end",
+        "startDate" : "2020-10-16 09:00",
+        "endDate"   : "2020-10-16 11:00",
+        "cls"       : "hatch-small",
+        "color"     : "red",
+        "iconCls"   : "b-icon b-fa-plane"
+      }
+    ]
+  },
+  "resourceTimeRanges" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "resourceId" : "bryntum",
+        "name"       : "Hackathon Reception",
+        "alignment"  : "start",
+        "startDate"  : "2020-10-11 09:00",
+        "endDate"    : "2020-10-11 17:00",
+        "iconCls"    : "b-icon b-fa-glass-cheers"
+      },
+      {
+        "id"         : 2,
+        "resourceId" : "hotel",
+        "name"       : "Bryntum function room booking",
+        "alignment"  : "start",
+        "startDate"  : "2020-10-11 09:00",
+        "endDate"    : "2020-10-11 17:00",
+        "iconCls"    : "b-icon b-fa-toolbox"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 10,
+        "startDate"  : "2020-10-11T14:00:00",
+        "endDate"    : "2020-10-11T18:00:00",
+        "name"       : "Check-In in Hotel",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"        : 20,
+        "startDate" : "2020-10-11T18:00:00",
+        "endDate"   : "2020-10-11T20:00:00",
+        "name"      : "Relax and official arrival beer"
+      },
+      {
+        "id"         : 30,
+        "startDate"  : "2020-10-11T20:00:00",
+        "endDate"    : "2020-10-11T21:00:00",
+        "name"       : "Dinner",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 40,
+        "startDate"  : "2020-10-12T09:00:00",
+        "endDate"    : "2020-10-12T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 50,
+        "startDate"  : "2020-10-12T10:15:00",
+        "endDate"    : "2020-10-12T11:15:00",
+        "name"       : "Grid introduction",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 51,
+        "startDate"  : "2020-10-12T11:30:00",
+        "endDate"    : "2020-10-12T12:30:00",
+        "name"       : "Scheduler introduction",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 52,
+        "startDate"  : "2020-10-12T12:45:00",
+        "endDate"    : "2020-10-12T13:45:00",
+        "name"       : "Gantt introduction",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 60,
+        "startDate"  : "2020-10-12T14:00:00",
+        "endDate"    : "2020-10-12T15:00:00",
+        "name"       : "Lunch",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 61,
+        "startDate"  : "2020-10-12T15:15:00",
+        "endDate"    : "2020-10-12T16:15:00",
+        "name"       : "Taskboard introduction",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 62,
+        "startDate"  : "2020-10-12T16:30:00",
+        "endDate"    : "2020-10-12T17:30:00",
+        "name"       : "Calendar introduction",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 63,
+        "startDate"  : "2020-10-12T17:45:00",
+        "endDate"    : "2020-10-12T18:45:00",
+        "name"       : "Combinations",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 70,
+        "startDate"  : "2020-10-12T19:00:00",
+        "endDate"    : "2020-10-12T20:00:00",
+        "name"       : "Dinner",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 100,
+        "startDate"  : "2020-10-13T09:00:00",
+        "endDate"    : "2020-10-13T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 101,
+        "startDate"  : "2020-10-13T10:15:00",
+        "endDate"    : "2020-10-13T11:15:00",
+        "name"       : "Grid use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 102,
+        "startDate"  : "2020-10-13T11:30:00",
+        "endDate"    : "2020-10-13T12:30:00",
+        "name"       : "Scheduler use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 103,
+        "startDate"  : "2020-10-13T12:45:00",
+        "endDate"    : "2020-10-13T13:45:00",
+        "name"       : "Gantt use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 110,
+        "startDate"  : "2020-10-13T14:00:00",
+        "endDate"    : "2020-10-13T15:00:00",
+        "name"       : "Lunch",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 120,
+        "startDate"  : "2020-10-13T19:00:00",
+        "endDate"    : "2020-10-13T20:00:00",
+        "name"       : "Dinner",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 121,
+        "startDate"  : "2020-10-13T15:15:00",
+        "endDate"    : "2020-10-13T16:15:00",
+        "name"       : "Taskboard use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 122,
+        "startDate"  : "2020-10-13T16:30:00",
+        "endDate"    : "2020-10-13T17:30:00",
+        "name"       : "Calendar use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 123,
+        "startDate"  : "2020-10-13T17:45:00",
+        "endDate"    : "2020-10-13T18:45:00",
+        "name"       : "Combination use cases",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 200,
+        "startDate"  : "2020-10-14T09:00:00",
+        "endDate"    : "2020-10-14T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 201,
+        "startDate"  : "2020-10-14T10:15:00",
+        "endDate"    : "2020-10-14T11:15:00",
+        "name"       : "Grid features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 202,
+        "startDate"  : "2020-10-14T11:30:00",
+        "endDate"    : "2020-10-14T12:30:00",
+        "name"       : "Scheduler features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 203,
+        "startDate"  : "2020-10-14T12:45:00",
+        "endDate"    : "2020-10-14T13:45:00",
+        "name"       : "Gantt features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 210,
+        "startDate"  : "2020-10-14T14:00:00",
+        "endDate"    : "2020-10-14T15:00:00",
+        "name"       : "Lunch",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 220,
+        "startDate"  : "2020-10-14T19:00:00",
+        "endDate"    : "2020-10-14T20:00:00",
+        "name"       : "Dinner",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 221,
+        "startDate"  : "2020-10-14T15:15:00",
+        "endDate"    : "2020-10-14T16:15:00",
+        "name"       : "Taskboard features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 222,
+        "startDate"  : "2020-10-14T16:30:00",
+        "endDate"    : "2020-10-14T17:30:00",
+        "name"       : "Calendar features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 223,
+        "startDate"  : "2020-10-14T17:45:00",
+        "endDate"    : "2020-10-14T18:45:00",
+        "name"       : "Combination features",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 300,
+        "startDate"  : "2020-10-15T09:00:00",
+        "endDate"    : "2020-10-15T10:00:00",
+        "name"       : "Breakfast",
+        "resourceId" : "hotel"
+      },
+      {
+        "id"         : 301,
+        "startDate"  : "2020-10-15T10:15:00",
+        "endDate"    : "2020-10-15T11:15:00",
+        "name"       : "Grid hacking",
+        "eventColor" : "lime"
+      },
+      {
+        "id"         : 302,
+        "startDate"  : "2020-10-15T11:30:00",
+        "endDate"    : "2020-10-15T12:30:00",
+        "name"       : "Scheduler hacking",
+        "eventColor" : "lime"
+      },
+      {
+        "id"         : 303,
+        "startDate"  : "2020-10-15T12:45:00",
+        "endDate"    : "2020-10-15T13:45:00",
+        "name"       : "Gantt hacking",
+        "eventColor" : "lime"
+      },
+      {
+        "id"         : 304,
+        "startDate"  : "2020-10-15T10:15:00",
+        "endDate"    : "2020-10-15T11:45:00",
+        "name"       : "Taskboard hacking",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 305,
+        "startDate"  : "2020-10-15T12:00:00",
+        "endDate"    : "2020-10-15T13:45:00",
+        "name"       : "Calendar hacking",
+        "resourceId" : "bryntum"
+      },
+      {
+        "id"         : 310,
+        "startDate"  : "2020-10-15T14:00:00",
+        "endDate"    : "2020-10-15T15:00:00",
+        "name"       : "Lunch",
+        "resourceId" : "hotel"
+      }
+    ]
+  }
+}

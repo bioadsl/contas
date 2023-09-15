@@ -1,0 +1,42 @@
+.b-cal-event-body .b-cal-event-desc {
+    font-size     : .9em;
+    order         : -1;
+    margin-bottom : 0.2em;
+    font-weight   : 500;
+}
+
+.b-short-event .b-cal-event-body .b-cal-event-desc {
+    margin-bottom : -1px;
+}
+
+.b-dayview-day-container .b-calendar-cell .b-cal-event-body {
+    padding : .6em;
+    margin  : 0;
+}
+
+.b-calendar-body-wrap .b-panel-content {
+    background : transparent;
+}
+
+.b-sidebar {
+    .b-datepicker {
+        font-size:.9em;
+    }
+
+    .b-panel-content,
+    .b-calendarpanel .b-panel-body-wrap {
+        background : transparent;
+    }
+
+    .b-datepicker .b-toolbar-content {
+        padding-inline-start: 0.6em !important;
+    }
+    .b-datepicker-title{
+        order : -1;
+        justify-content: start;
+    }
+}
+
+.b-eventtip.b-eventedit .b-tooltip-content {
+    gap : .8em;
+}
